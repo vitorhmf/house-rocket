@@ -8,10 +8,6 @@
 
 A House Rocket atua no ramo imobiliário e utiliza a tecnologia para simplificar a venda e compra de imóveis. Em uma próxima rodada de investimento, o CEO da empresa está com um portifólio com cerca de 22 mil imóveis, localizados em Seattle, e precisa definir como será destinado esse investimento e qual a expectativa de retorno 
 
-
-
-*Obs.: os dados utilizados nesse projeto são fictícios e foram retirados do site: https://www.kaggle.com/datasets/shivachandel/kc-house-data
-
 ## Questões de Negócio:
 ### 1. Quais são os imóveis que a House Rocket deveria comprar e por qual preço?
 ### 2. Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?
