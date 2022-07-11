@@ -78,7 +78,7 @@ def overview (data):
     st.title('Projeto House Rocket')
     st.image('seatle.jpg')
     st.write('### Identificação de imóveis para compra e revenda a fim de maximizar o lucro')
-    st.markdown('A partir da análise exploratória dos dados de um portfólio com aproximadamente 22 mil imóveis em Seatle, foram selecionadas 811 casas como sugestão de compra. Todas estão anunciadas pelo menos 30% abaixo da média de preço da região e estão classificadas com um ótimo estado de conservação (notas 4 e 5 em uma escala de 1 a 5).')
+    st.markdown('A partir da análise exploratória dos dados de um portfólio com aproximadamente 22 mil imóveis em Seattle, foram selecionadas 811 casas como sugestão de compra. Todas estão anunciadas pelo menos 30% abaixo da média de preço da região e estão classificadas com um ótimo estado de conservação (notas 4 e 5 em uma escala de 1 a 5).')
     st.markdown('Com relação a estratégia comercial, foi analisado o período do ano em que cada região apresentava maior média de preços, definindo assim quando é melhor revender cada imóvel. E a precificação foi estipulada buscando um ROI de 40% do investimento realizado.')
 
     #Configuração do menu lateral:
@@ -149,8 +149,8 @@ def answer (data_final):
 
     c1, c2, c3, c4 = st.columns((1,1,1,1))
     c1.write(f'Qtd de Imóveis: {qtde_imoveis:.0f}')
-    c2.write(f'Investimento: R$ {investimento:,.2f}')
-    c3.write(f'Receita: R$ {receita:,.2f}')
+    c2.write(f'Investimento: $ {investimento:,.2f}')
+    c3.write(f'Receita: $ {receita:,.2f}')
     c4.write(f'ROI: {roi:.0%}')
 
     #Imóveis selecionados:
@@ -300,7 +300,7 @@ def analysis(data):
     return None
 
 if __name__ == '__main__':
-    path = 'kc_house_data.csv'
+    path = 'data/kc_house_data.csv'
     data = get_data(path) 
     data_final = set_feature(data)
     overview (data)
