@@ -7,7 +7,7 @@
 
 ## 1. Abstract
 
-This **Data Analysis Project** presents the House Rocket, a fictitious company, inspired by the challenge published on [kaggle](https://www.kaggle.com/datasets/shivachandel/kc-house-data), which operates in the real estate industry and uses technology to simplify the purchase and sale of properties.
+This **Data Analysis Project** presents the House Rocket, a fictitious company (inspired by the challenge published on this [kaggle](https://www.kaggle.com/datasets/shivachandel/kc-house-data)), which operates in the real estate industry and uses technology to simplify the purchase and sale of properties.
 
 For the next round of investment, the company's CEO has a portfolio of 21,613 properties, located in Seattle, and needs to define how this investment will be allocated and what is the expected return.
 
