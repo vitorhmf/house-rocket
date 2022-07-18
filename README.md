@@ -1,6 +1,6 @@
 # House Rocket Data Analysis
 
-### Identification of real estate opportunities for purchase and resale in order to maximize profit
+### Identification of real estate opportunities for purchase and resale
 
 <img src="image/seatle.jpg" width="1000">
 
@@ -9,7 +9,7 @@
 
 This **Data Analysis Project** presents the House Rocket, a fictitious company (inspired by the challenge published on this [kaggle](https://www.kaggle.com/datasets/shivachandel/kc-house-data)), which operates in the real estate industry and uses technology to simplify the purchase and sale of properties.
 
-For the next round of investment, the company's CEO has a portfolio of 21,613 properties, located in Seattle, and needs to define how this investment will be allocated and what is the expected return.
+For the next round of investments, the company's CEO has a budget of 100 million dollars to invest in a portfolio of 21,613 properties, located in Seattle, and needs to define how this investment will be allocated and what the expected return will be.
 
 The solution built to present the investment allocation suggestions was developed from the information obtained from the Exploratory Data Analysis and organized in this [dashboard](https://house-rocket-vitorhmf.herokuapp.com/) made with Streamlit and put into production on Heroku Cloud.
 
