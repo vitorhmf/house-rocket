@@ -4,7 +4,6 @@
 
 <img src="image/seatle.jpg" width="1000">
 
-
 ## 1. Abstract
 
 This **Data Analysis Project** presents the House Rocket, a fictitious company (inspired by the challenge published on this [kaggle](https://www.kaggle.com/datasets/shivachandel/kc-house-data)), which operates in the real estate industry and uses technology to simplify the purchase and sale of properties.
@@ -13,15 +12,25 @@ For the next round of investments, the company's CEO has a budget of 100 million
 
 The solution built to present the investment allocation suggestions was developed from the information obtained from the Exploratory Data Analysis and organized in this [dashboard](https://house-rocket-vitorhmf.herokuapp.com/) made with Streamlit and put into production on Heroku Cloud.
 
+<img src="image/dashboard_view1.png" width="1000">
+
+*Example: dashboard map view.*
+
+The full dashboard can be accessed through this [link](https://house-rocket-vitorhmf.herokuapp.com/).
+
 **Keywords:** Python, Pandas, Numpym, Seaborn, Folium, Streamlit, Heroku Cloud.
+
 
 ## 2. Business Understanding
 
 ### 2.1. Context
 
-Business Questions:
-* 1. What properties should House Rocket buy and at what price?
+A new round of investments will be carried out by House Rocket and the company's CEO has a budget of 100 million dollars to invest in a portfolio of 21,613 properties, located in Seattle. Now he needs to define two points:
+
+* 1. What properties should House Rocket buy?
 * 2. Once the house is purchased, when is the best time to sell it and at what price?
+
+To help the CEO to take a data-driven decision, a detailed data analysis of the portfolio of properties available for purchase was performed.Initially the dataset had the following features:
 
 | Feature                | Definition                                                                                               |
 |------------------------|----------------------------------------------------------------------------------------------------------|
@@ -51,11 +60,31 @@ Business Questions:
 
 ### 2.2. Business assumption: 
 
+* Houses without bathrooms and with a value above 4 million were not considered;
+* The seasons of the year were defined as follows:
+    - Winter: December, January and February;
+    - Spring: March, April and May;
+    - Summer: June, July, August;
+    - Autumn: September, October and November
+
 ## 3. Data Understanding
 
 ### 3.1. Data Wrangling
 
+To build an overview of the data, the following steps were performed:
+
+* Check NA: the dataset did not have any missing values;
+* Change date types from object to datetime;
+* Change the floor's number from float64 to int64;
+
 ### 3.2 Data Descriptive
+
+A quick descriptive analysis of numerical and categorical variables was performed to generate a preview of the data.
+
+**Numerical Attributes:**
+
+**Categorical Attributes:**
+
 
 ### 3.3. Feature Engineering
 
