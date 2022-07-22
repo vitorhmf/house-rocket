@@ -30,7 +30,7 @@ A new round of investments will be carried out by House Rocket and the company's
 * 1. What properties should House Rocket buy?
 * 2. Once the house is purchased, when is the best time to sell it and at what price?
 
-To help the CEO to take a data-driven decision, a detailed data analysis of the portfolio of properties available for purchase was performed.Initially the dataset had the following features:
+To help the CEO to take a data-driven decision, a detailed data analysis of the portfolio of properties available for purchase was performed. Initially the dataset had the following features:
 
 | Feature                | Definition                                                                                               |
 |------------------------|----------------------------------------------------------------------------------------------------------|
@@ -83,18 +83,44 @@ A quick descriptive analysis of numerical and categorical variables was performe
 
 **Numerical Attributes:**
 
+<img src="image/num_attributes.png" width="800">
+
 **Categorical Attributes:**
+
+<img src="image/cat_attributes1.png" width="1000">
+
+<img src="image/cat_attributes2.png" width="1000">
 
 
 ### 3.3. Feature Engineering
 
+To assist in the analysis of the need to create new features, a mind map was made with the agents that impact the decision to purchase a property.
+
+<img src="image/mind_map.png" width="800">
+
+From this analysis, new features were defined within four groups:
+
+1) **Time-derived Features:** month, year, season;
+2) **Square feet to square meters area features:** m2 features, price/m2, median price/m2;
+3) **Features derived from clusters:** property type, price group, house age;
+4) **Features derived from the sales strategy:** better season to sell, sale price, ROI;
+
+The development of features derived from the sales strategy will be discussed in [item 4].
+
 ### 3.4. Data Filtering
 
-### 3.5. Exploratory Data Analysis
+* houses without bathroom
+* Houses over 4 million
+* A house that featured 33 rooms (incompatible data)
+* Features with sqft area
 
-## 4. Evaluation
+## 4 Exploratory Data Analysis
 
-## 5. Deployment
+### 3.1 
+
+## 5. Solution
+
+## 6. Deployment
 
 ## 6. Conclusion
 
