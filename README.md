@@ -149,7 +149,7 @@ From the data analysis presented, four groups of houses were defined as good opp
 
 <img src="image/house_group.png" width="800">
 
-Oerview of selected houses:
+Overview of selected houses:
 
 <img src="image/selected_attributes1.png" width="800">
 
@@ -157,43 +157,33 @@ Oerview of selected houses:
 
 ### 5.2 When is the best time to sell it and at what price?
 
+The best time to resell the property was defined by analyzing for each zipcode which season of the year the median price/m2 was highest. This analysis is presented in the dataset in the "better_season_to_sell" feature.
+
+The sale price was defined based on the relationship between the price/m2 of the property and the median price/m2 of the region:
+* Properties with a price/m2 between 0% and 25% of the price/m2 of the region had the sale price 80% above the purchase price;
+* Properties with a price/m2 between 25% and 50% of the price/m2 in the region had the sale price 50% above the purchase price;
+* Properties with a price/m2 between 50% and 75% of the price/m2 of the region had the sale price 30% above the purchase price;
+* Properties with a price/m2 between 75% and 100% of the price/m2 of the region had the sale price 20% above the purchase price;
 
 
 ## 6. Deployment
 
-## 6. Conclusion
+The solution built to present the investment allocation suggestions was organized in this [dashboard](https://house-rocket-vitorhmf.herokuapp.com/), made with Streamlit and put into production on Heroku Cloud.
 
-### 6.1. Business Results
+<img src="image/dashboard_view1.png" width="1000">
 
+## 7. Conclusion
 
+### 7.1. Business Results
 
-### 6.2. Next Steps
+From the selected properties and the defined pricing strategy, the estimated return on investment is 55.9%.
+
+### 7.2. Next Steps
 
 * Add new filters to the dashboard
 * Improve property pricing strategy
 
-## 7. References
+## 8. References
 
 * [Comunidade DS](https://www.comunidadedatascience.com/)
 * [Kaggle](https://www.kaggle.com/datasets/shivachandel/kc-house-data)
-
-
-
-
-<!--
-Para construir a solução desejada, foi realizada a análise exploratória dos dados do portfólio de imóveis e foram selecionadas 811 casas como sugestão de compra. Essa seleção foi feita escolhendo os imóveis que estavam pelo menos 30% abaixo da média de preço da região e que estavam classificados com um ótimo estado de conservação (notas 4 e 5 em uma escala de 1 a 5).
-
-Com relação a estratégia comercial, foi analisado o período do ano em que cada região apresentava maior média de preços, definindo assim quando é melhor revender cada imóvel. E a precificação foi estipulada buscando um ROI de 40% do investimento realizado.
-
-
-
-
-## Apresentação da Solução:
-
-Para apresentar as respostas das questões de negócio, foi desenvolvido um dashboard contendo:
-  - Visão Geral do Portfólio: nessa etapa é apresentado o dataset original e feita uma analise estatística descritiva dos dados.
-  - Análise do Investimento: a análise do investimento foi feita apresentando uma descrição do ROI, dos imóveis selecionados e a visualização no mapa.
-  - Hipóteses de Negócio: análises complementares dos dados, validando hipóteses que possam gerar ações e auxiliar no direcionamento da tomada de decisão da empresa.
-
-Link da solução: https://house-rocket-vitorhmf.herokuapp.com/
--->
