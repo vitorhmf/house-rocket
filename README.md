@@ -116,9 +116,38 @@ The development of features derived from the sales strategy will be discussed in
 
 ## 4 Exploratory Data Analysis
 
-### 3.1 
+In this step a detailed analysis of the data was performed and the complete EDA can be seen in this [notebook]. The main insights obtained, which were the basis for the development of the solution, will be presented below.
 
-## 5. Solution
+* Many properties with the price/m2 below 50% of the median in the region are in good condition. These houses can be good opportunities to guarantee a high return on investment.
+
+<img src="image/h2.png" width="500">
+
+* From the group above, we analyzed the conditions only of the houses built after 1990.
+
+<img src="image/h3.png" width="500">
+
+* Another possibility of opportunity from the first group would be newer and very cheap houses, but in not so good conditions. Can be options to buy, renovate and resell.
+
+<img src="image/h6.png" width="500">
+
+* Below we have an overview of the houses in excellent condition and below 75% of the median price/m2. In this case, despite being older properties, the fact that they are very well maintained facilitates the sale process.
+
+<img src="image/h4.png" width="500">
+
+* We also analyzed the profile of the houses that have a view to the sea that have the price/m2 below the median of the region. Houses overlooking the sea are on average 62% larger than other properties, so even though they are very old houses, we can find good opportunities in this group.
+
+<img src="image/h5.png" width="500">
+
+
+
+
+## 5. Business Solution
+
+### 5.1 What properties should House Rocket buy?
+
+
+
+### 5.2 When is the best time to sell it and at what price?
 
 ## 6. Deployment
 
