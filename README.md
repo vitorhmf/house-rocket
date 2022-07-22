@@ -145,9 +145,19 @@ In this step a detailed analysis of the data was performed and the complete EDA 
 
 ### 5.1 What properties should House Rocket buy?
 
+From the data analysis presented, four groups of houses were defined as good opportunities to buy and resell. Below is the description and characteristics of each group.
 
+<img src="image/house_group.png" width="800">
+
+Oerview of selected houses:
+
+<img src="image/selected_attributes1.png" width="800">
+
+<img src="image/selected_attributes2.png" width="800">
 
 ### 5.2 When is the best time to sell it and at what price?
+
+
 
 ## 6. Deployment
 
@@ -155,7 +165,12 @@ In this step a detailed analysis of the data was performed and the complete EDA 
 
 ### 6.1. Business Results
 
+
+
 ### 6.2. Next Steps
+
+* Add new filters to the dashboard
+* Improve property pricing strategy
 
 ## 7. References
 
