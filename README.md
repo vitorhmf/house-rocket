@@ -10,7 +10,7 @@ This **Data Analysis Project** presents the House Rocket, a fictitious company (
 
 For the next round of investments, the company's CEO has a budget of 100 million dollars to invest in a portfolio of 21,613 properties, located in Seattle, and needs to define how this investment will be allocated and what the expected return will be.
 
-The solution built to present the investment allocation suggestions was developed from the information obtained from the Exploratory Data Analysis and organized in this [dashboard](https://house-rocket-vitorhmf.herokuapp.com/), made with Streamlit and put into production on Heroku Cloud. In the end, the suggestion presented would generate an ROI of 55.9%
+The solution built to present the investment allocation suggestions was developed from the information obtained from the Exploratory Data Analysis and organized in this [dashboard](https://house-rocket-vitorhmf.herokuapp.com/), made with Streamlit and put into production on Heroku Cloud. In the end, the suggestion presented would generate an **ROI of 55.9%**.
 
 <img src="image/dashboard_view1.png" width="1000">
 
